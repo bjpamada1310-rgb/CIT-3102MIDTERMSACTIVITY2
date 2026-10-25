@@ -1,7 +1,7 @@
 # Section 1: Project Metadata
 
 - **Project Title:** Vehicle REST API (Laravel 11 + Sanctum)
-- **Partner Names:** _Partner 1 Name_, _Partner 2 Name_
+- **Partner Names:** benedict jay pamada, kurt kyan abelardo
 - **Section:** _Your Section_
 - **Selected Resource:** Vehicle (`make`, `model`, `year`, `price`)
 
@@ -62,25 +62,25 @@ Protected routes need the header `Authorization: Bearer <token>` and `Accept: ap
 # Section 4: Test Proof / Screenshot Placeholders
 
 1. **Register user** — `POST /api/register` → 201 + token
-   ![Test 1](screenshots/01-register.png)
+   ![Test 1](screenshots/1.jpeg)
 2. **Login** — `POST /api/login` → 200 + token
-   ![Test 2](screenshots/02-login.png)
+   ![Test 2](screenshots/2.jpeg)
 3. **Get authenticated user** — `GET /api/me` → 200
-   ![Test 3](screenshots/03-me.png)
+   ![Test 3](screenshots/3.jpeg)
 4. **List all vehicles** — `GET /api/vehicles` → 200
-   ![Test 4](screenshots/04-index.png)
+   ![Test 4](screenshots/4.jpeg)
 5. **Filter vehicles** — `GET /api/vehicles?make=Mitsubishi&year=1999` → 200
-   ![Test 5](screenshots/05-filter.png)
+   ![Test 5](screenshots/5.jpeg)
 6. **Create vehicle** — `POST /api/vehicles` → 201
-   ![Test 6](screenshots/06-store.png)
+   ![Test 6](screenshots/6.jpeg)
 7. **Show vehicle** — `GET /api/vehicles/1` → 200
-   ![Test 7](screenshots/07-show.png)
+   ![Test 7](screenshots/7.jpeg)
 8. **Update vehicle** — `PUT /api/vehicles/1` → 200
-   ![Test 8](screenshots/08-update.png)
+   ![Test 8](screenshots/8.jpeg)
 9. **Delete vehicle** — `DELETE /api/vehicles/1` → 204
-   ![Test 9](screenshots/09-destroy.png)
+   ![Test 9](screenshots/9.jpeg)
 10. **Logout** — `POST /api/logout` → 200
-    ![Test 10](screenshots/10-logout.png)
+    ![Test 10](screenshots/10.jpeg)
 
 ---
 
